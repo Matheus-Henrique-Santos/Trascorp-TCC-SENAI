@@ -1,0 +1,328 @@
+:root{ 
+    --textoBranco: #FFFFFF;
+    --textoPreto: #000000;
+    --primaria: #221F3B; 
+    --secundaria: #6F4A8E;
+    --terciaria: #050505;
+    --quaternaria: #EBEBEB;
+    --fosco:  rgba(0,0,0,0.7);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (min-width: 250px) and (max-width: 400px){
+
+.section-container-resposta{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-card-resposta{
+    width: 240px;
+    background-color: #FFFFFF;
+    padding-bottom: 5px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div-titulo-card-resposta{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--textoBranco);
+    background-color: var(--secundaria);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.div-container-resposta{
+    width: 100%;
+    padding: 5px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: helvetica;
+}
+
+.div-container-itens-resposta{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    justify-content: space-evenly;
+    align-items: left;
+}
+
+.span-resposta-itens-titulo{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.span-resposta-itens{
+    font-size: 16px;
+}
+
+.div-container-resposta-whatsapp{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: helvetica;
+    align-items: center;
+}
+
+.span-resposta-whatsapp{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.div-botao-resposta-whatsapp{
+    width: 70px;
+    height: 35px;
+    border-radius: 5px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imagem-resposta-whatsapp{
+    width: 30px;
+    height: 30px;
+}
+
+.imagem-resposta-whatsapp:hover{
+    width: 31px;
+    height: 31px;
+    cursor: pointer;
+}
+
+}
+@media only screen and (min-width: 401px) and (max-width: 1024px){
+
+.section-container-resposta{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+    
+.div-card-resposta{
+    width: 300px;
+    background-color: #FFFFFF;
+    padding-bottom: 5px;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+.div-titulo-card-resposta{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--textoBranco);
+    background-color: var(--secundaria);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+    
+.div-container-resposta{
+    width: 100%;
+    padding: 5px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: helvetica;
+}
+    
+.div-container-itens-resposta{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    justify-content: space-evenly;
+    align-items: left;
+}
+    
+.span-resposta-itens-titulo{
+    font-weight: 600;
+    font-size: 16px;
+}
+    
+.span-resposta-itens{
+    font-size: 16px;
+}
+    
+.div-container-resposta-whatsapp{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: helvetica;
+    align-items: center;
+}
+    
+.span-resposta-whatsapp{
+    font-size: 13px;
+    font-weight: 600;
+}
+    
+.div-botao-resposta-whatsapp{
+    width: 70px;
+    height: 35px;
+    border-radius: 5px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
+}
+    
+.imagem-resposta-whatsapp{
+    width: 30px;
+    height: 30px;
+}
+    
+.imagem-resposta-whatsapp:hover{
+    width: 31px;
+    height: 31px;
+    cursor: pointer;
+}
+    
+}
+@media only screen and (min-width: 1025px) and (max-width: 9999px){
+
+.section-container-resposta{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+    
+.div-card-resposta{
+    width: 400px;
+    background-color: #FFFFFF;
+    padding-bottom: 5px;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+.div-titulo-card-resposta{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--textoBranco);
+    background-color: var(--secundaria);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+    
+.div-container-resposta{
+    width: 100%;
+    padding: 5px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: helvetica;
+}
+    
+.div-container-itens-resposta{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    justify-content: space-evenly;
+    align-items: left;
+}
+    
+.span-resposta-itens-titulo{
+    font-weight: 600;
+    font-size: 16px;
+}
+    
+.span-resposta-itens{
+    font-size: 16px;
+}
+    
+.div-container-resposta-whatsapp{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: helvetica;
+    align-items: center;
+}
+    
+.span-resposta-whatsapp{
+    font-size: 13px;
+    font-weight: 600;
+}
+    
+.div-botao-resposta-whatsapp{
+    width: 70px;
+    height: 35px;
+    border-radius: 5px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
+}
+    
+.imagem-resposta-whatsapp{
+    width: 30px;
+    height: 30px;
+}
+    
+.imagem-resposta-whatsapp:hover{
+    width: 31px;
+    height: 31px;
+    cursor: pointer;
+}
+    
+}
+

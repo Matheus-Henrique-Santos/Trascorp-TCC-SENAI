@@ -1,0 +1,324 @@
+:root{ 
+    --textoBranco: #FFFFFF;
+    --textoPreto: #000000;
+    --primaria: #221F3B; 
+    --secundaria: #6F4A8E;
+    --terciaria: #050505;
+    --quaternaria: #EBEBEB;
+    --botaoHover:  #49335C;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (min-width: 250px) and (max-width: 319px){
+
+.divContainerValor{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primaria);
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.divCardValor{
+    width: 240px;
+    background-color: var(--quaternaria);
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-bottom: 1vh;
+}
+
+.divValorTitulo{
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    background-color: var(--secundaria);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    font-weight: 600;
+    color: var(--textoBranco);
+}
+
+.textoInput{
+    color: var(--textoPreto);
+}
+
+.divContainerBotoesEnviarCancelar{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.divBotoesCancelarEnviar{
+    width: 45%;
+    height: 25px;
+    background-color: var(--secundaria);
+    text-align: center;
+    border-radius: 5px;
+    color: var(--textoBranco);
+    font-weight: 600;
+    padding-top: 1px;
+    transition: background-color 0.5s;
+}
+
+.divBotoesCancelarEnviar:hover{
+    background-color: var(--botaoHover);
+    cursor: pointer;
+}
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 420px){
+
+.divContainerValor{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primaria);
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+    
+.divCardValor{
+    width: 250px;
+    background-color: var(--quaternaria);
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-bottom: 1vh;
+}
+    
+.divValorTitulo{
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    background-color: var(--secundaria);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    font-weight: 600;
+    color: var(--textoBranco);
+}
+    
+.textoInput{
+    color: var(--textoPreto);
+}
+    
+.divContainerBotoesEnviarCancelar{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+    
+.divBotoesCancelarEnviar{
+    width: 45%;
+    height: 25px;
+    background-color: var(--secundaria);
+    text-align: center;
+    border-radius: 5px;
+    color: var(--textoBranco);
+    font-weight: 600;
+    padding-top: 1px;
+    transition: background-color 0.5s;
+}
+    
+.divBotoesCancelarEnviar:hover{
+    background-color: var(--botaoHover);
+    cursor: pointer;
+}
+    
+}
+
+@media only screen and (min-width: 421px) and (max-width: 800px){
+
+.divContainerValor{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primaria);
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+        
+.divCardValor{
+    width: 260px;
+    background-color: var(--quaternaria);
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-bottom: 1vh;
+}
+        
+.divValorTitulo{
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    background-color: var(--secundaria);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    font-weight: 600;
+    color: var(--textoBranco);
+}
+        
+.textoInput{
+    color: var(--textoPreto);
+}
+        
+.divContainerBotoesEnviarCancelar{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+        
+.divBotoesCancelarEnviar{
+    width: 45%;
+    height: 25px;
+    background-color: var(--secundaria);
+    text-align: center;
+    border-radius: 5px;
+    color: var(--textoBranco);
+    font-weight: 600;
+    padding-top: 1px;
+    transition: background-color 0.5s;
+}
+        
+.divBotoesCancelarEnviar:hover{
+    background-color: var(--botaoHover);
+    cursor: pointer;
+}
+        
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1500px){
+
+.divContainerValor{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primaria);
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+            
+.divCardValor{
+    width: 260px;
+    background-color: var(--quaternaria);
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-bottom: 1vh;
+}
+            
+.divValorTitulo{
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    background-color: var(--secundaria);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    font-weight: 600;
+    color: var(--textoBranco);
+}
+            
+.textoInput{
+    color: var(--textoPreto);
+}
+            
+.divContainerBotoesEnviarCancelar{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+            
+.divBotoesCancelarEnviar{
+    width: 45%;
+    height: 25px;
+    background-color: var(--secundaria);
+    text-align: center;
+    border-radius: 5px;
+    color: var(--textoBranco);
+    font-weight: 600;
+    padding-top: 1px;
+    transition: background-color 0.5s;
+}
+            
+.divBotoesCancelarEnviar:hover{
+    background-color: var(--botaoHover);
+    cursor: pointer;
+}
+            
+}
+
+@media only screen and (min-width: 1501px) and (max-width: 9999px){
+
+.divContainerValor{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primaria);
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+                
+.divCardValor{
+    width: 280px;
+    background-color: var(--quaternaria);
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-bottom: 1vh;
+}
+                
+.divValorTitulo{
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    background-color: var(--secundaria);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    font-weight: 600;
+    color: var(--textoBranco);
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+}
+                
+.textoInput{
+    color: var(--textoPreto);
+}
+                
+.divContainerBotoesEnviarCancelar{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+                
+.divBotoesCancelarEnviar{
+    width: 45%;
+    height: 25px;
+    background-color: var(--secundaria);
+    text-align: center;
+    border-radius: 5px;
+    color: var(--textoBranco);
+    font-weight: 600;
+    padding-top: 1px;
+    transition: background-color 0.5s;
+}
+                
+.divBotoesCancelarEnviar:hover{
+    background-color: var(--botaoHover);
+    cursor: pointer;
+}
+                
+}
+
+
+

@@ -1,0 +1,653 @@
+:root{ 
+    --textoBranco: #FFFFFF;
+    --textoPreto: #000000;
+    --primaria: #221F3B; 
+    --secundaria: #6F4A8E;
+    --quaternaria: #EBEBEB;
+    --botaoHover: #352342;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (min-width: 250px) and (max-width: 319px){
+
+.section-container-solicitacao{
+    min-width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    background-color: var(--primaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-card-orcamento{
+    width: 240px;
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    font-family: helvetica;
+    padding-bottom: 10px;
+}
+
+.div-titulo-formulario-solicitacao{
+    background-color: var(--secundaria);
+    width: 100%;
+    position: relative;
+    text-align: center;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    font-family: helvetica;
+    padding-bottom: 10px;
+    color: var(--textoBranco);
+    font-weight: 600;
+}
+
+.textoInput{
+    color: var(--textoPreto);
+}
+
+.div-container-botoes-formulario-solicitacao{
+    width: 150px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 0.5vh;
+}
+
+.div-botoes-formularios-solicitacao{
+    width: 45%;
+    background-color: var(--secundaria);
+    height: 100%;
+    border-radius: 5px;
+    text-align: center;
+    color: var(--textoBranco);
+    padding-top: 2%;
+    font-weight: 600;
+    transition: background-color 0.5s;
+    font-family: helvetica;
+}
+
+.div-botoes-formularios-solicitacao:hover{
+    cursor: pointer;
+    background-color: var(--botaoHover);
+}
+
+.botao-formulario-cancelar{
+    float: left;
+}
+
+.botao-formulario-solicitar{
+    float: right;
+}
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 420px){
+
+.section-container-solicitacao{
+    min-width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    background-color: var(--primaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+    
+.div-card-orcamento{
+    width: 260px;
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    font-family: helvetica;
+    padding-bottom: 10px;
+}
+    
+.div-titulo-formulario-solicitacao{
+    background-color: var(--secundaria);
+    width: 100%;
+    position: relative;
+    text-align: center;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    font-family: helvetica;
+    padding-bottom: 10px;
+    color: var(--textoBranco);
+    font-weight: 600;
+}
+    
+.textoInput{
+    color: var(--textoPreto);
+}
+    
+.div-container-botoes-formulario-solicitacao{
+    width: 150px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 0.5vh;
+}
+    
+.div-botoes-formularios-solicitacao{
+    width: 45%;
+    background-color: var(--secundaria);
+    height: 100%;
+    border-radius: 5px;
+    text-align: center;
+    color: var(--textoBranco);
+    padding-top: 2%;
+    font-weight: 600;
+    transition: background-color 0.5s;
+    font-family: helvetica;
+}
+
+.div-botoes-formularios-solicitacao:hover{
+    cursor: pointer;
+    background-color: var(--botaoHover);
+}
+    
+.botao-formulario-cancelar{
+    float: left;
+}
+    
+.botao-formulario-solicitar{
+    float: right;
+}
+    
+}
+
+@media only screen and (min-width: 421px) and (max-width: 600px){
+
+.section-container-solicitacao{
+    min-width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    background-color: var(--primaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+        
+.div-card-orcamento{
+    width: 300px;
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    font-family: helvetica;
+    padding-bottom: 10px;
+}
+        
+.div-titulo-formulario-solicitacao{
+    background-color: var(--secundaria);
+    width: 100%;
+    position: relative;
+    text-align: center;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    font-family: helvetica;
+    padding-bottom: 10px;
+    color: var(--textoBranco);
+    font-weight: 600;
+}
+        
+.textoInput{
+    color: var(--textoPreto);
+}
+        
+.div-container-botoes-formulario-solicitacao{
+    width: 150px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 0.5vh;
+}
+        
+.div-botoes-formularios-solicitacao{
+    width: 45%;
+    background-color: var(--secundaria);
+    height: 100%;
+    border-radius: 5px;
+    text-align: center;
+    color: var(--textoBranco);
+    padding-top: 2%;
+    font-weight: 600;
+    transition: background-color 0.5s;
+    font-family: helvetica;
+}
+    
+.div-botoes-formularios-solicitacao:hover{
+    cursor: pointer;
+    background-color: var(--botaoHover);
+}
+        
+.botao-formulario-cancelar{
+    float: left;
+}
+        
+.botao-formulario-solicitar{
+    float: right;
+}
+        
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px){
+
+.section-container-solicitacao{
+    min-width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    background-color: var(--primaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+            
+.div-card-orcamento{
+    width: 310px;
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    font-family: helvetica;
+    padding-bottom: 10px;
+}
+            
+.div-titulo-formulario-solicitacao{
+    background-color: var(--secundaria);
+    width: 100%;
+    position: relative;
+    text-align: center;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    font-family: helvetica;
+    padding-bottom: 10px;
+    color: var(--textoBranco);
+    font-weight: 600;
+}
+            
+.textoInput{
+    color: var(--textoPreto);
+}
+            
+.div-container-botoes-formulario-solicitacao{
+    width: 150px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 0.5vh;
+}
+            
+.div-botoes-formularios-solicitacao{
+    width: 45%;
+    background-color: var(--secundaria);
+    height: 100%;
+    border-radius: 5px;
+    text-align: center;
+    color: var(--textoBranco);
+    padding-top: 2%;
+    font-weight: 600;
+    transition: background-color 0.5s;
+    font-family: helvetica;
+}
+        
+.div-botoes-formularios-solicitacao:hover{
+    cursor: pointer;
+    background-color: var(--botaoHover);
+}
+            
+.botao-formulario-cancelar{
+    float: left;
+}
+            
+.botao-formulario-solicitar{
+    float: right;
+}
+            
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1024px){
+
+.section-container-solicitacao{
+    min-width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    background-color: var(--primaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+                
+.div-card-orcamento{
+    width: 330px;
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    font-family: helvetica;
+    padding-bottom: 10px;
+}
+                
+.div-titulo-formulario-solicitacao{
+    background-color: var(--secundaria);
+    width: 100%;
+    position: relative;
+    text-align: center;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    font-family: helvetica;
+    padding-bottom: 10px;
+    color: var(--textoBranco);
+    font-weight: 600;
+}
+                
+.textoInput{
+    color: var(--textoPreto);
+}
+                
+.div-container-botoes-formulario-solicitacao{
+    width: 150px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 0.5vh;
+}
+                
+.div-botoes-formularios-solicitacao{
+    width: 45%;
+    background-color: var(--secundaria);
+    height: 100%;
+    border-radius: 5px;
+    text-align: center;
+    color: var(--textoBranco);
+    padding-top: 2%;
+    font-weight: 600;
+    transition: background-color 0.5s;
+    font-family: helvetica;
+}
+            
+.div-botoes-formularios-solicitacao:hover{
+    cursor: pointer;
+    background-color: var(--botaoHover);
+}
+                
+.botao-formulario-cancelar{
+    float: left;
+}
+                
+.botao-formulario-solicitar{
+    float: right;
+}
+                
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 2000px){
+
+.section-container-solicitacao{
+    min-width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    background-color: var(--primaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+                    
+.div-card-orcamento{
+    width: 400px;
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    font-family: helvetica;
+    padding-bottom: 10px;
+}
+                    
+.div-titulo-formulario-solicitacao{
+    background-color: var(--secundaria);
+    width: 100%;
+    position: relative;
+    text-align: center;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    font-family: helvetica;
+    padding-bottom: 10px;
+    color: var(--textoBranco);
+    font-weight: 600;
+}
+                    
+.textoInput{
+    color: var(--textoPreto);
+}
+                    
+.div-container-botoes-formulario-solicitacao{
+    width: 150px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 0.5vh;
+}
+                    
+.div-botoes-formularios-solicitacao{
+    width: 45%;
+    background-color: var(--secundaria);
+    height: 100%;
+    border-radius: 5px;
+    text-align: center;
+    color: var(--textoBranco);
+    padding-top: 2%;
+    font-weight: 600;
+    transition: background-color 0.5s;
+    font-family: helvetica;
+}
+                
+.div-botoes-formularios-solicitacao:hover{
+    cursor: pointer;
+    background-color: var(--botaoHover);
+}
+                    
+.botao-formulario-cancelar{
+    float: left;
+}
+                    
+.botao-formulario-solicitar{
+    float: right;
+}
+                    
+}
+
+@media only screen and (min-width: 2001px) and (max-width: 3000px){
+
+.section-container-solicitacao{
+    min-width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    background-color: var(--primaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+                        
+.div-card-orcamento{
+    width: 460px;
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    font-family: helvetica;
+    padding-bottom: 10px;
+}
+                        
+.div-titulo-formulario-solicitacao{
+    background-color: var(--secundaria);
+    width: 100%;
+    position: relative;
+    text-align: center;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    font-family: helvetica;
+    padding-bottom: 10px;
+    color: var(--textoBranco);
+    font-weight: 600;
+}
+                        
+.textoInput{
+    color: var(--textoPreto);
+}
+                        
+.div-container-botoes-formulario-solicitacao{
+    width: 150px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 0.5vh;
+}
+                        
+.div-botoes-formularios-solicitacao{
+    width: 45%;
+    background-color: var(--secundaria);
+    height: 100%;
+    border-radius: 5px;
+    text-align: center;
+    color: var(--textoBranco);
+    padding-top: 2%;
+    font-weight: 600;
+    transition: background-color 0.5s;
+    font-family: helvetica;
+}
+                    
+.div-botoes-formularios-solicitacao:hover{
+    cursor: pointer;
+    background-color: var(--botaoHover);
+}
+                        
+.botao-formulario-cancelar{
+    float: left;
+}
+                        
+.botao-formulario-solicitar{
+    float: right;
+}
+                        
+}
+
+@media only screen and (min-width: 3001px) and (max-width: 9999px){
+
+.section-container-solicitacao{
+    min-width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    background-color: var(--primaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+                            
+.div-card-orcamento{
+    width: 460px;
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    font-family: helvetica;
+    padding-bottom: 10px;
+}
+                            
+.div-titulo-formulario-solicitacao{
+    background-color: var(--secundaria);
+    width: 100%;
+    position: relative;
+    text-align: center;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    font-family: helvetica;
+    padding-bottom: 10px;
+    color: var(--textoBranco);
+    font-weight: 600;
+}
+                            
+.textoInput{
+    color: var(--textoPreto);
+}
+                            
+.div-container-botoes-formulario-solicitacao{
+    width: 150px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 0.5vh;
+}
+                            
+.div-botoes-formularios-solicitacao{
+    width: 45%;
+    background-color: var(--secundaria);
+    height: 100%;
+    border-radius: 5px;
+    text-align: center;
+    color: var(--textoBranco);
+    padding-top: 2%;
+    font-weight: 600;
+    transition: background-color 0.5s;
+    font-family: helvetica;
+}
+                        
+.div-botoes-formularios-solicitacao:hover{
+    cursor: pointer;
+    background-color: var(--botaoHover);
+}
+                            
+.botao-formulario-cancelar{
+    float: left;
+}
+                            
+.botao-formulario-solicitar{
+    float: right;
+}
+                            
+}

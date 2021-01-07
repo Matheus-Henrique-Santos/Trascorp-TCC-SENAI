@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+--textoBranco{
+  color: #ffffff
+}
+--textoPreto{
+  color:#000000
+}
+--primaria{
+  color:#6F4A8E
+};
+--secundaria{
+  color:#221F3B
+};
+--terciaria{
+  color:#050505
+};
+--quaternaria{
+  color:#EBEBEB
+};
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

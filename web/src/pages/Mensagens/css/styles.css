@@ -1,0 +1,328 @@
+:root{ 
+    --textoBranco: #FFFFFF;
+    --textoPreto: #000000;
+    --body: #221F3B;
+    --primaria: #1B192F; 
+    --secundaria: #6F4A8E;
+    --terciaria: #050505;
+    --quaternaria: #EBEBEB;
+}
+
+@media only screen and (min-width: 250px) and (max-width: 400px){
+
+.section-container-mensagens{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--quaternaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}    
+
+/* Coluna esquerda */
+
+.div-coluna-esquerda-inicio-cliente{
+    width: 75px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-foto-inicio-cliente{
+    width: 50px;
+    padding-top: 50px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    margin-top: 5px;
+}
+
+.span-nome-inicio-cliente{
+    text-align: center;
+    font-size: 10px;
+    margin-top: 7px;
+    font-weight: bold;
+    color: var(--textoBranco);
+    font-family: helvetica;
+}
+
+.span-itens-menu-inicio-cliente{
+    text-align: center;
+    font-size: 10px;
+    margin-top: 15px;
+    color: var(--textoBranco);
+    font-family: helvetica;
+}
+
+
+.div-card-mensagens{
+    width: 90%;
+    background-color: var(--quaternaria);
+    border-radius: 10px;
+}
+
+.div-titulo-mensagens{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: var(--secundaria);
+    color: #FFFFFF;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: helvetica;
+    font-weight: bold;
+}
+
+.div-container-lista-mensagens{
+    width: 100%;
+    height: 60vh;
+    background-color: #FFFFFF;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 999;
+    overflow-y: hidden;
+    padding-top: 20px;
+}
+
+.div-voltar-mensagens{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: var(--secundaria);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.img-voltar-lista-mensagens{
+    width: 85%;
+    height: 85%;
+}
+
+.img-voltar-lista-mensagens:hover{
+    cursor: pointer;
+    width: 88%;
+    height: 88%;
+}
+
+}
+
+@media only screen and (min-width: 401px) and (max-width: 800px){
+
+    .section-container-mensagens{
+        width: 100vw;
+        height: 100vh;
+        background-color: var(--quaternaria);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }    
+
+    /* Coluna esquerda */
+    
+.div-coluna-esquerda-inicio-cliente{
+    width: 85px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
+.div-foto-inicio-cliente{
+    width: 55px;
+    padding-top: 55px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    margin-top: 5px;
+}
+    
+.span-nome-inicio-cliente{
+    text-align: center;
+    font-size: 11px;
+    margin-top: 7px;
+    font-weight: bold;
+    color: var(--textoBranco);
+    font-family: helvetica;
+}
+    
+.span-itens-menu-inicio-cliente{
+    text-align: center;
+    font-size: 11px;
+    margin-top: 15px;
+    color: var(--textoBranco);
+    font-family: helvetica;
+}
+
+    
+    .div-card-mensagens{
+        width: 90%;
+        background-color: var(--quaternaria);
+        border-radius: 10px;
+    }
+    
+    .div-titulo-mensagens{
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: var(--secundaria);
+        color: #FFFFFF;
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        text-align: center;
+        font-size: 1.2em;
+        font-family: helvetica;
+        font-weight: bold;
+    }
+    
+    .div-container-lista-mensagens{
+        width: 100%;
+        height: 60vh;
+        background-color: #FFFFFF;
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 999;
+        overflow-y: hidden;
+        padding-top: 20px;
+    }
+    
+    .div-voltar-mensagens{
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        background-color: var(--secundaria);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    .img-voltar-lista-mensagens{
+        width: 85%;
+        height: 85%;
+    }
+    
+    .img-voltar-lista-mensagens:hover{
+        cursor: pointer;
+        width: 88%;
+        height: 88%;
+    }
+    
+}
+
+@media only screen and (min-width: 801px) and (max-width: 9999px){
+
+    .section-container-mensagens{
+        width: 100vw;
+        height: 99vh;
+        background-color: var(--quaternaria);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Coluna esquerda */
+        
+.div-coluna-esquerda-inicio-cliente{
+    width: 90px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+        
+.div-foto-inicio-cliente{
+    width: 60px;
+    padding-top: 60px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    margin-top: 5px;
+}
+        
+.span-nome-inicio-cliente{
+    text-align: center;
+    font-size: 11px;
+    margin-top: 7px;
+    font-weight: bold;
+    color: var(--textoBranco);
+    font-family: helvetica;
+}
+        
+.span-itens-menu-inicio-cliente{
+    text-align: center;
+    font-size: 11px;
+    margin-top: 15px;
+    color: var(--textoBranco);
+    font-family: helvetica;
+}
+
+    
+    .div-card-mensagens{
+        width: 700px;
+        background-color: var(--quaternaria);
+        border-radius: 10px;
+    }
+    
+    .div-titulo-mensagens{
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: var(--secundaria);
+        color: #FFFFFF;
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        text-align: center;
+        font-size: 1.2em;
+        font-family: helvetica;
+        font-weight: bold;
+    }
+    
+    .div-container-lista-mensagens{
+        width: 100%;
+        height: 60vh;
+        background-color: #FFFFFF;
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 999;
+        overflow-y: hidden;
+        padding-top: 20px;
+    }
+    
+    .div-voltar-mensagens{
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        background-color: var(--secundaria);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    .img-voltar-lista-mensagens{
+        width: 85%;
+        height: 85%;
+    }
+    
+    .img-voltar-lista-mensagens:hover{
+        cursor: pointer;
+        width: 88%;
+        height: 88%;
+    }
+    
+    }
+

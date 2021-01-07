@@ -1,0 +1,68 @@
+:root{ 
+    --textoBranco: #FFFFFF;
+    --textoPreto: #000000;
+    --primaria: #221F3B; 
+    --secundaria: #6F4A8E;
+    --terciaria: #050505;
+    --quaternaria: #EBEBEB;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#221F3B;
+}
+.containerOrcamento{
+    background-color: var(--quaternaria);
+}
+
+
+.col {
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.cardOrcamento {
+    position: relative;
+    margin: .5rem 0 1rem 0;
+    justify-content: center;
+    background-color: #fff;
+    transition: box-shadow .25s;
+    border-radius: 20px;
+}
+
+.formulario{
+    background-color: inherit;
+    border-top: 1px solid rgba(160,160,160,0.2);
+    background-color: #6F4A8E;
+    position: relative;
+    height: 120px;
+    padding: 16px 24px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+ .botao{
+    height: 54px;
+    line-height: 54px;
+    font-size: 15px;
+    padding: 0 28px;
+
+    text-decoration: none;
+    color: #fff;
+    background-color: #6F4A8E;
+    text-align: center;
+    letter-spacing: .5px;
+    transition: background-color .2s ease-out;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.botao:focus{
+    background-color: #6F4A8E;
+    text-align: center;
+    
+}

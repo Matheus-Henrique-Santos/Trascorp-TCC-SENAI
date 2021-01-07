@@ -1,0 +1,452 @@
+:root{ 
+    --textoBranco: #FFFFFF;
+    --textoPreto: #000000;
+    --primaria: #221F3B; 
+    --secundaria: #6F4A8E;
+    --terciaria: #050505;
+    --quaternaria: #EBEBEB;
+    --botaoHover: #352342;
+}
+
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+.cardCadastro {
+    position: relative;
+    margin: .5rem 0 1rem 0;
+    /* background-color: #fff; */
+    transition: box-shadow .25s;
+    border-radius: 20px;
+    /* min-width: 30%; */
+    /* max-width: 30%; */
+}
+
+
+body{
+    background-color:#221F3B;
+}
+
+.input-foto-motorista{
+    background-color: #6F4A8E !important;
+}
+
+@media only screen and (min-width: 250px) and (max-width: 320px){
+
+.section-container-cadastro-motorista{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primaria);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div-card-cadastro-motorista{
+    width: 240px;
+    border-radius: 7px;
+    padding-bottom: 1vh;
+}
+
+.div-titulo-cadastro-motorista{
+    width: 100%;
+    background-color: var(--secundaria);
+    font-size: 1.5em;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 85px;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    color: var(--textoBranco);
+    font-family: helvetica;
+}
+
+.div-container-botoes-voltar-cadastrar{
+    width: 190px;
+    height: 35px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.div-botoes-voltar-cadastrar{
+    width: 45%;
+    height: 100%;
+    background-color: #6F4A8E;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-family: helvetica;
+    font-size: 0.9em;
+    transition: background-color .5s ease-out;
+}
+
+.div-botoes-voltar-cadastrar:hover{
+    cursor: pointer;
+    background-color: var(--botaoHover);
+}
+
+}
+
+@media only screen and (min-width: 321px) and (max-width: 800px){
+
+.section-container-cadastro-motorista{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primaria);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+        
+.div-card-cadastro-motorista{
+    width: 280px;
+    border-radius: 7px;
+    padding-bottom: 1vh;
+}
+        
+.div-titulo-cadastro-motorista{
+    width: 100%;
+    background-color: var(--secundaria);
+    font-size: 1.5em;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 85px;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    color: var(--textoBranco);
+    font-family: helvetica;
+}
+        
+.div-container-botoes-voltar-cadastrar{
+    width: 190px;
+    height: 35px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+        
+.div-botoes-voltar-cadastrar{
+    width: 45%;
+    height: 100%;
+    background-color: #6F4A8E;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-family: helvetica;
+    font-size: 0.9em;
+    transition: background-color .5s ease-out;
+}
+        
+.div-botoes-voltar-cadastrar:hover{
+    cursor: pointer;
+    background-color: var(--botaoHover);
+}
+        
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1500px){
+
+.section-container-cadastro-motorista{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primaria);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+            
+.div-card-cadastro-motorista{
+    width: 350px;
+    border-radius: 7px;
+    padding-bottom: 1vh;
+}
+            
+.div-titulo-cadastro-motorista{
+    width: 100%;
+    background-color: var(--secundaria);
+    font-size: 1.5em;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 85px;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    color: var(--textoBranco);
+    font-family: helvetica;
+}
+            
+.div-container-botoes-voltar-cadastrar{
+    width: 190px;
+    height: 35px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+            
+.div-botoes-voltar-cadastrar{
+    width: 45%;
+    height: 100%;
+    background-color: #6F4A8E;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-family: helvetica;
+    font-size: 0.9em;
+    transition: background-color .5s ease-out;
+}
+            
+.div-botoes-voltar-cadastrar:hover{
+    cursor: pointer;
+    background-color: var(--botaoHover);
+}
+            
+}
+
+@media only screen and (min-width: 1501px) and (max-width: 3000px){
+
+.section-container-cadastro-motorista{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primaria);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+                
+.div-card-cadastro-motorista{
+    width: 450px;
+    border-radius: 10px;
+    padding-bottom: 1vh;
+}
+                
+.div-titulo-cadastro-motorista{
+    width: 100%;
+    background-color: var(--secundaria);
+    font-size: 1.5em;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 85px;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    color: var(--textoBranco);
+    font-family: helvetica;
+}
+                
+.div-container-botoes-voltar-cadastrar{
+    width: 190px;
+    height: 35px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+                
+.div-botoes-voltar-cadastrar{
+    width: 45%;
+    height: 100%;
+    background-color: #6F4A8E;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-family: helvetica;
+    font-size: 0.9em;
+    transition: background-color .5s ease-out;
+}
+                
+.div-botoes-voltar-cadastrar:hover{
+    cursor: pointer;
+    background-color: var(--botaoHover);
+}
+                
+}
+
+@media only screen and (min-width: 3001px) and (max-width: 5000px){
+
+.section-container-cadastro-motorista{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primaria);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+                    
+.div-card-cadastro-motorista{
+    width: 550px;
+    border-radius: 15px;
+    padding-bottom: 1vh;
+}
+                    
+.div-titulo-cadastro-motorista{
+    width: 100%;
+    background-color: var(--secundaria);
+    font-size: 1.5em;
+    border-top-left-radius: 120px;
+    border-top-right-radius: 120px;
+    margin-top: 85px;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    color: var(--textoBranco);
+    font-family: helvetica;
+}
+                    
+.div-container-botoes-voltar-cadastrar{
+    width: 190px;
+    height: 35px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+                    
+.div-botoes-voltar-cadastrar{
+    width: 45%;
+    height: 100%;
+    background-color: #6F4A8E;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-family: helvetica;
+    font-size: 0.9em;
+    transition: background-color .5s ease-out;
+}
+                    
+.div-botoes-voltar-cadastrar:hover{
+    cursor: pointer;
+    background-color: var(--botaoHover);
+}
+                    
+}
+
+@media only screen and (min-width: 5001px) and (max-width: 9999px){
+
+.section-container-cadastro-motorista{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primaria);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+                        
+.div-card-cadastro-motorista{
+    width: 550px;
+    border-radius: 15px;
+    padding-bottom: 1vh;
+}
+                        
+.div-titulo-cadastro-motorista{
+    width: 100%;
+    background-color: var(--secundaria);
+    font-size: 1.5em;
+    border-top-left-radius: 120px;
+    border-top-right-radius: 120px;
+    margin-top: 85px;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    color: var(--textoBranco);
+    font-family: helvetica;
+}
+                        
+.div-container-botoes-voltar-cadastrar{
+    width: 190px;
+    height: 35px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+                        
+.div-botoes-voltar-cadastrar{
+    width: 45%;
+    height: 100%;
+    background-color: #6F4A8E;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-family: helvetica;
+    font-size: 0.9em;
+    transition: background-color .5s ease-out;
+}
+                        
+.div-botoes-voltar-cadastrar:hover{
+    cursor: pointer;
+    background-color: var(--botaoHover);
+}
+                        
+}
+
+
+
+
+
+
+
+
+
+
+

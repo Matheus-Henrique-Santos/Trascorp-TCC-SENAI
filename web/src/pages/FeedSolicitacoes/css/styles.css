@@ -1,0 +1,713 @@
+:root{ 
+    --textoBranco: #FFFFFF;
+    --textoPreto: #000000;
+    --primaria: #221F3B; 
+    --secundaria: #6F4A8E;
+    --terciaria: #050505;
+    --quaternaria: #EBEBEB;
+    --fosco:  rgba(0,0,0,0.7);
+}
+
+body, html{
+    padding: 0;
+    margin-bottom: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (min-width: 250px) and (max-width: 319px){
+
+.divContainerEstruturaModulo{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primaria);
+    padding: 0.5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Coluna esquerda */
+
+.divColunaEsquerdaEstruturaModulo{
+    width: 19%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divConatainerFotoInicioCliente{
+    width: 80%;
+    padding-top: 80%;
+    border-radius: 50%;
+    background-color: var(--quaternaria);
+    margin-top: 0.5vh;
+}
+
+.pNomeInicioCliente{
+    font-size: 0.6em;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 1vh;
+    color: var(--textoBranco);
+    font-family: helvetica;
+}
+
+.pPerfilSolicitarSairInicioCliente{
+    font-size: 0.6em;
+    text-align: center;
+    margin-top: 2vh;
+    color: var(--textoBranco);
+    font-family: helvetica;
+}
+
+.pPerfilSolicitarSairInicioCliente:hover{
+    cursor: pointer;
+}
+
+/* Coluna direita */
+
+.divColunaDireitaEstruturaModulo{
+    width: 80%;
+    height: 100%;
+    background-color: var(--quaternaria);
+    overflow: hidden;
+    z-index: 999;
+}
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 420px){
+
+.divContainerEstruturaModulo{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primaria);
+    padding: 0.5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+    
+/* Coluna esquerda */
+    
+.divColunaEsquerdaEstruturaModulo{
+    width: 17%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
+.divConatainerFotoInicioCliente{
+    width: 80%;
+    padding-top: 80%;
+    border-radius: 50%;
+    background-color: var(--quaternaria);
+    margin-top: 0.5vh;
+}
+    
+.pNomeInicioCliente{
+    font-size: 0.7em;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 1vh;
+    color: var(--textoBranco);
+    font-family: helvetica;
+}
+    
+.pPerfilSolicitarSairInicioCliente{
+    font-size: 0.7em;
+    text-align: center;
+    margin-top: 2vh;
+    color: var(--textoBranco);
+    font-family: helvetica;
+}
+
+.pPerfilSolicitarSairInicioCliente:hover{
+    cursor: pointer;
+}
+    
+/* Coluna direita */
+    
+.divColunaDireitaEstruturaModulo{
+    width: 82%;
+    height: 100%;
+    background-color: var(--quaternaria);
+    overflow: hidden;
+    z-index: 999;
+}
+    
+}
+
+@media only screen and (min-width: 421px) and (max-width: 600px){
+
+.divContainerEstruturaModulo{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primaria);
+    padding: 0.4vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+        
+/* Coluna esquerda */
+        
+.divColunaEsquerdaEstruturaModulo{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+        
+.divConatainerFotoInicioCliente{
+    width: 80%;
+    padding-top: 80%;
+    border-radius: 50%;
+    background-color: var(--quaternaria);
+    margin-top: 0.5vh;
+}
+        
+.pNomeInicioCliente{
+    font-size: 0.8em;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 1vh;
+    color: var(--textoBranco);
+    font-family: helvetica;
+}
+        
+.pPerfilSolicitarSairInicioCliente{
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 2vh;
+    color: var(--textoBranco);
+    font-family: helvetica;
+}
+
+.pPerfilSolicitarSairInicioCliente:hover{
+    cursor: pointer;
+}
+        
+/* Coluna direita */
+        
+.divColunaDireitaEstruturaModulo{
+    width: 83%;
+    height: 100%;
+    background-color: var(--quaternaria);
+    overflow: hidden;
+    z-index: 999;
+}
+        
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px){
+
+.divContainerEstruturaModulo{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primaria);
+    padding: 0.4vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+                
+/* Coluna esquerda */
+                
+.divColunaEsquerdaEstruturaModulo{
+    width: 11%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+                
+.divConatainerFotoInicioCliente{
+    width: 80%;
+    padding-top: 80%;
+    border-radius: 50%;
+    background-color: var(--quaternaria);
+    margin-top: 0.5vh;
+}
+                
+.pNomeInicioCliente{
+    font-size: 0.8em;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 2vh;
+    color: var(--textoBranco);
+    font-family: helvetica;
+}
+                
+.pPerfilSolicitarSairInicioCliente{
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 3vh;
+    color: var(--textoBranco);
+    font-family: helvetica;
+}
+        
+.pPerfilSolicitarSairInicioCliente:hover{
+    cursor: pointer;
+}
+                
+/* Coluna direita */
+                
+.divColunaDireitaEstruturaModulo{
+    width: 88%;
+    height: 100%;
+    background-color: var(--quaternaria);
+    overflow: hidden;
+    z-index: 999;
+}
+                
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1024px){
+
+.divContainerEstruturaModulo{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primaria);
+    padding: 0.4vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+                    
+/* Coluna esquerda */
+                    
+.divColunaEsquerdaEstruturaModulo{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+                    
+.divConatainerFotoInicioCliente{
+    width: 80%;
+    padding-top: 80%;
+    border-radius: 50%;
+    background-color: var(--quaternaria);
+    margin-top: 0.5vh;
+}
+                    
+.pNomeInicioCliente{
+    font-size: 0.9em;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 2vh;
+    color: var(--textoBranco);
+    font-family: helvetica;
+}
+                    
+.pPerfilSolicitarSairInicioCliente{
+    font-size: 0.9em;
+    text-align: center;
+    margin-top: 3vh;
+    color: var(--textoBranco);
+    font-family: helvetica;
+}
+            
+.pPerfilSolicitarSairInicioCliente:hover{
+    cursor: pointer;
+}
+                    
+/* Coluna direita */
+                    
+.divColunaDireitaEstruturaModulo{
+    width: 89%;
+    height: 100%;
+    background-color: var(--quaternaria);
+    overflow: hidden;
+    z-index: 999;
+}
+                    
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1500px){
+
+.divContainerEstruturaModulo{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primaria);
+    padding: 0.3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+                        
+/* Coluna esquerda */
+                        
+.divColunaEsquerdaEstruturaModulo{
+    width: 8%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+                        
+.divConatainerFotoInicioCliente{
+    width: 80%;
+    padding-top: 80%;
+    border-radius: 50%;
+    background-color: var(--quaternaria);
+    margin-top: 0.5vh;
+}
+                        
+.pNomeInicioCliente{
+    font-size: 1em;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 2vh;
+    color: var(--textoBranco);
+    font-family: helvetica;
+}
+                        
+.pPerfilSolicitarSairInicioCliente{
+    font-size: 1em;
+    text-align: center;
+    margin-top: 3vh;
+    color: var(--textoBranco);
+    font-family: helvetica;
+}
+                
+.pPerfilSolicitarSairInicioCliente:hover{
+    cursor: pointer;
+}
+                        
+/* Coluna direita */
+                        
+.divColunaDireitaEstruturaModulo{
+    width: 91%;
+    height: 100%;
+    background-color: var(--quaternaria);
+    overflow: hidden;
+    z-index: 999;
+}
+                        
+}
+
+@media only screen and (min-width: 1501px) and (max-width: 2000px){
+
+.divContainerEstruturaModulo{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primaria);
+    padding: 0.3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+                            
+/* Coluna esquerda */
+                            
+.divColunaEsquerdaEstruturaModulo{
+    width: 6%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+                            
+.divConatainerFotoInicioCliente{
+    width: 80%;
+    padding-top: 80%;
+    border-radius: 50%;
+    background-color: var(--quaternaria);
+    margin-top: 1vh;
+}
+                            
+.pNomeInicioCliente{
+    font-size: 1em;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 2vh;
+    color: var(--textoBranco);
+    font-family: helvetica;
+}
+                            
+.pPerfilSolicitarSairInicioCliente{
+    font-size: 1em;
+    text-align: center;
+    margin-top: 3vh;
+    color: var(--textoBranco);
+    font-family: helvetica;
+}
+                    
+.pPerfilSolicitarSairInicioCliente:hover{
+    cursor: pointer;
+}
+                            
+/* Coluna direita */
+                            
+.divColunaDireitaEstruturaModulo{
+    width: 93%;
+    height: 100%;
+    background-color: var(--quaternaria);
+    overflow: hidden;
+    z-index: 999;
+}
+                            
+}
+
+@media only screen and (min-width: 2001px) and (max-width: 2500px){
+
+.divContainerEstruturaModulo{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primaria);
+    padding: 0.2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+                                
+/* Coluna esquerda */
+                                
+.divColunaEsquerdaEstruturaModulo{
+    width: 5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+                                
+.divConatainerFotoInicioCliente{
+    width: 80%;
+    padding-top: 80%;
+    border-radius: 50%;
+    background-color: var(--quaternaria);
+    margin-top: 1vh;
+}
+                                
+.pNomeInicioCliente{
+    font-size: 1em;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 2vh;
+    color: var(--textoBranco);
+    font-family: helvetica;
+}
+                                
+.pPerfilSolicitarSairInicioCliente{
+    font-size: 1em;
+    text-align: center;
+    margin-top: 3vh;
+    color: var(--textoBranco);
+    font-family: helvetica;
+}
+                        
+.pPerfilSolicitarSairInicioCliente:hover{
+    cursor: pointer;
+}
+                                
+/* Coluna direita */
+                                
+.divColunaDireitaEstruturaModulo{
+    width: 94%;
+    height: 100%;
+    background-color: var(--quaternaria);
+    overflow: hidden;
+    z-index: 999;
+}
+                                
+}
+
+@media only screen and (min-width: 2501px) and (max-width: 3000px){
+
+.divContainerEstruturaModulo{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primaria);
+    padding: 0.2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+                                    
+/* Coluna esquerda */
+                                    
+.divColunaEsquerdaEstruturaModulo{
+    width: 5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+                                    
+.divConatainerFotoInicioCliente{
+    width: 80%;
+    padding-top: 80%;
+    border-radius: 50%;
+    background-color: var(--quaternaria);
+    margin-top: 1vh;
+}
+                                    
+.pNomeInicioCliente{
+    font-size: 1em;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 2.5vh;
+    color: var(--textoBranco);
+    font-family: helvetica;
+}
+                                    
+.pPerfilSolicitarSairInicioCliente{
+    font-size: 1em;
+    text-align: center;
+    margin-top: 3vh;
+    color: var(--textoBranco);
+    font-family: helvetica;
+}
+                            
+.pPerfilSolicitarSairInicioCliente:hover{
+    cursor: pointer;
+}
+                                    
+/* Coluna direita */
+                                    
+.divColunaDireitaEstruturaModulo{
+    width: 94%;
+    height: 100%;
+    background-color: var(--quaternaria);
+    overflow: hidden;
+    z-index: 999;
+}
+                                    
+}
+
+@media only screen and (min-width: 3001px) and (max-width: 4000px){
+
+.divContainerEstruturaModulo{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primaria);
+    padding: 0.2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+                                        
+/* Coluna esquerda */
+                                        
+.divColunaEsquerdaEstruturaModulo{
+    width: 3.5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+                                        
+.divConatainerFotoInicioCliente{
+    width: 80%;
+    padding-top: 80%;
+    border-radius: 50%;
+    background-color: var(--quaternaria);
+    margin-top: 1vh;
+}
+                                        
+.pNomeInicioCliente{
+    font-size: 1em;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 2.5vh;
+    color: var(--textoBranco);
+    font-family: helvetica;
+}
+                                        
+.pPerfilSolicitarSairInicioCliente{
+    font-size: 1em;
+    text-align: center;
+    margin-top: 3vh;
+    color: var(--textoBranco);
+    font-family: helvetica;
+}
+                                
+.pPerfilSolicitarSairInicioCliente:hover{
+    cursor: pointer;
+}
+                                        
+/* Coluna direita */
+                                        
+.divColunaDireitaEstruturaModulo{
+    width: 96%;
+    height: 100%;
+    background-color: var(--quaternaria);
+    overflow: hidden;
+    z-index: 999;
+}
+                                        
+}
+
+@media only screen and (min-width: 4001px) and (max-width: 5000px){
+
+.divContainerEstruturaModulo{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primaria);
+    padding: 0.2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+                                            
+/* Coluna esquerda */
+                                            
+.divColunaEsquerdaEstruturaModulo{
+    width: 3.5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+                                            
+.divConatainerFotoInicioCliente{
+    width: 80%;
+    padding-top: 80%;
+    border-radius: 50%;
+    background-color: var(--quaternaria);
+    margin-top: 1vh;
+}
+                                            
+.pNomeInicioCliente{
+    font-size: 1em;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 2.5vh;
+    color: var(--textoBranco);
+    font-family: helvetica;
+}
+                                            
+.pPerfilSolicitarSairInicioCliente{
+    font-size: 1em;
+    text-align: center;
+    margin-top: 3vh;
+    color: var(--textoBranco);
+    font-family: helvetica;
+}
+                                    
+.pPerfilSolicitarSairInicioCliente:hover{
+    cursor: pointer;
+}
+                                            
+/* Coluna direita */
+                                            
+.divColunaDireitaEstruturaModulo{
+    width: 96%;
+    height: 100%;
+    background-color: var(--quaternaria);
+    overflow: hidden;
+    z-index: 999;
+}
+                                            
+}
+

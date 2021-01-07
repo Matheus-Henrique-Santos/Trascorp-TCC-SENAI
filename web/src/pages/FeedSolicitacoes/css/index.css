@@ -1,0 +1,146 @@
+body, html{
+    padding: 0;
+    margin-bottom: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flow-text{
+    margin-left: 5px;
+}
+
+section{
+    overflow-y: scroll;
+    max-height: 100vh;
+}
+
+:root{ 
+    --textoBranco: #FFFFFF;
+    --textoPreto: #000000;
+    --primaria: #221F3B; 
+    --secundaria: #6F4A8E;
+    --terciaria: #050505;
+    --quaternaria: #EBEBEB;
+    --texto: sans-serif;
+    --titulo: sans-serif
+}
+@media screen and (max-device-width:640px){
+    .containerFeed{
+        width: 100% !important;
+    }
+}
+.containerFeed{
+    width: 50vw;
+    min-height: 200px;
+    height: fit-content;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: var(--secundaria);
+    color: var(--textoBranco);
+    padding-top: 10px;
+    box-shadow: 0px 5px 10px black, 0px 0px 10px black;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #f4f4f4;
+}
+::-webkit-scrollbar{
+    width: 6px;
+    background-color: #f4f4f4;
+}
+::-webkit-scrollbar-thumb {
+    background: #dad7d7;
+}
+
+.fotoPerfil{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.card-image strong{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.card-image p{
+    margin-right: 10px;
+    font-size: 22px;
+}
+
+.card-content p{
+    margin-left: 10px;
+}
+
+.card .card-content{
+    padding: 10px;
+}
+
+
+header.row{
+    width: 547.6px;
+}
+
+.row{
+    bottom: 5px;
+    width: inherit;
+}
+
+.card .card-image img{
+    border-radius: 50px;
+    width: inherit;
+}
+
+.card{
+    margin: 15px;
+    /* border-radius: 10px; */
+    background-color: #6F4A8E;
+    overflow: hidden;
+    width: 800px;
+    /* box-shadow: 10px 10px 10px black; */
+    /* border: solid red 1px; */
+}
+
+.fotoSolicitacao{
+    max-height: 500px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.btnFeedSolicitacoes{
+    background-color: var(--terciaria);
+    color: var(--quaternaria);
+    margin-right: -1.5px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+};
+
+.btn, .btn-large{
+    background-color: var(--primaria);
+}
+
+.btn:hover, .btn-large:hover{
+    background-color: var(--primaria); 
+}
+
+.btnFeedSolicitacoes:hover{
+    background-color: var(--primaria);
+    color: var(--quaternaria);
+}
+
+.btnFeedSolicitacoes:focus{
+    background-color: var(--primaria);
+    color: var(--quaternaria);
+}
+
+.card .card-action{
+    margin-bottom: 15px;
+    padding-bottom: 0px;
+}

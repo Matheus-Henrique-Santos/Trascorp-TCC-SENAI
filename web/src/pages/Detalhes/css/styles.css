@@ -1,0 +1,520 @@
+:root{ 
+    --textoBranco: #FFFFFF;
+    --textoPreto: #000000;
+    --primaria: #221F3B; 
+    --secundaria: #6F4A8E;
+    --terciaria: #050505;
+    --quaternaria: #EBEBEB;
+    --botaoHover: #352342;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (min-width: 250px) and (max-width: 320px){
+
+.section-container-detalhes{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+    
+.div-card-detalhes{
+    width: 240px;
+    margin: 0 auto;
+    background-color: var(--quaternaria);
+    border-radius: 7px;
+    padding-bottom: 1vh;
+}
+
+.div-titulo-detalhes{
+    width: 100%;
+    background-color: var(--secundaria);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    color: var(--textoBranco);
+    font-size: 1.5em;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-family: helvetica;
+}
+
+.div-container-itens-detalhes{
+    width: 98%;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-family: helvetica;
+}
+
+.h6-item-detalhes{
+    font-weight: 700;
+}
+
+.div-container-voltar-detalhes{
+    width: 97%;
+    height: 35px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.div-botao-voltar-detalhes{
+    width: 75px;
+    height: 100%;
+    border-radius: 5px;
+    background-color:var(--secundaria);
+    font-size: 0.9em;
+    text-align: center;
+    color: var(--textoBranco);
+    font-family: helvetica;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    transition: background-color .2s ease-out;
+}
+
+.div-botao-voltar-detalhes:hover{
+    cursor: pointer;
+    background-color: var(--botaoHover);
+}
+
+}
+
+@media only screen and (min-width: 321px) and (max-width: 800px){
+
+.section-container-detalhes{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+        
+.div-card-detalhes{
+    width: 280px;
+    margin: 0 auto;
+    background-color: var(--quaternaria);
+    border-radius: 7px;
+    padding-bottom: 1vh;
+}
+    
+.div-titulo-detalhes{
+    width: 100%;
+    background-color: var(--secundaria);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    color: var(--textoBranco);
+    font-size: 1.5em;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-family: helvetica;
+}
+    
+.div-container-itens-detalhes{
+    width: 98%;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-family: helvetica;
+}
+    
+.h6-item-detalhes{
+    font-weight: 700;
+}
+    
+.div-container-voltar-detalhes{
+    width: 97%;
+    height: 35px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+    
+.div-botao-voltar-detalhes{
+    width: 75px;
+    height: 100%;
+    border-radius: 5px;
+    background-color:var(--secundaria);
+    font-size: 0.9em;
+    text-align: center;
+    color: var(--textoBranco);
+    font-family: helvetica;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    transition: background-color .2s ease-out;
+}
+    
+.div-botao-voltar-detalhes:hover{
+    cursor: pointer;
+    background-color: var(--botaoHover);
+}
+    
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1500px){
+
+.section-container-detalhes{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+            
+.div-card-detalhes{
+    width: 350px;
+    margin: 0 auto;
+    background-color: var(--quaternaria);
+    border-radius: 7px;
+    padding-bottom: 1vh;
+}
+        
+.div-titulo-detalhes{
+    width: 100%;
+    background-color: var(--secundaria);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    color: var(--textoBranco);
+    font-size: 1.5em;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-family: helvetica;
+}
+        
+.div-container-itens-detalhes{
+    width: 98%;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-family: helvetica;
+}
+        
+.h6-item-detalhes{
+    font-weight: 700;
+}
+        
+.div-container-voltar-detalhes{
+    width: 97%;
+    height: 35px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+        
+.div-botao-voltar-detalhes{
+    width: 75px;
+    height: 100%;
+    border-radius: 5px;
+    background-color:var(--secundaria);
+    font-size: 0.9em;
+    text-align: center;
+    color: var(--textoBranco);
+    font-family: helvetica;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    transition: background-color .2s ease-out;
+}
+        
+.div-botao-voltar-detalhes:hover{
+    cursor: pointer;
+    background-color: var(--botaoHover);
+}
+        
+}
+
+@media only screen and (min-width: 1501px) and (max-width: 3000px){
+
+.section-container-detalhes{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+                
+.div-card-detalhes{
+    width: 450px;
+    margin: 0 auto;
+    background-color: var(--quaternaria);
+    border-radius: 10px;
+    padding-bottom: 1vh;
+}
+            
+.div-titulo-detalhes{
+    width: 100%;
+    background-color: var(--secundaria);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    text-align: center;
+    color: var(--textoBranco);
+    font-size: 1.5em;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-family: helvetica;
+}
+            
+.div-container-itens-detalhes{
+    width: 98%;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-family: helvetica;
+}
+            
+.h6-item-detalhes{
+    font-weight: 700;
+}
+            
+.div-container-voltar-detalhes{
+    width: 97%;
+    height: 35px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+            
+.div-botao-voltar-detalhes{
+    width: 75px;
+    height: 100%;
+    border-radius: 5px;
+    background-color:var(--secundaria);
+    font-size: 0.9em;
+    text-align: center;
+    color: var(--textoBranco);
+    font-family: helvetica;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    transition: background-color .2s ease-out;
+}
+            
+.div-botao-voltar-detalhes:hover{
+    cursor: pointer;
+    background-color: var(--botaoHover);
+}
+            
+}
+
+@media only screen and (min-width: 3001px) and (max-width: 5000px){
+
+.section-container-detalhes{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+                    
+.div-card-detalhes{
+    width: 550px;
+    margin: 0 auto;
+    background-color: var(--quaternaria);
+    border-radius: 15px;
+    padding-bottom: 1vh;
+}
+                
+.div-titulo-detalhes{
+    width: 100%;
+    background-color: var(--secundaria);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    color: var(--textoBranco);
+    font-size: 1.5em;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-family: helvetica;
+}
+                
+.div-container-itens-detalhes{
+    width: 98%;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-family: helvetica;
+}
+                
+.h6-item-detalhes{
+    font-weight: 700;
+}
+                
+.div-container-voltar-detalhes{
+    width: 97%;
+    height: 35px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+                
+.div-botao-voltar-detalhes{
+    width: 75px;
+    height: 100%;
+    border-radius: 5px;
+    background-color:var(--secundaria);
+    font-size: 0.9em;
+    text-align: center;
+    color: var(--textoBranco);
+    font-family: helvetica;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    transition: background-color .2s ease-out;
+}
+                
+.div-botao-voltar-detalhes:hover{
+    cursor: pointer;
+    background-color: var(--botaoHover);
+}
+                
+}
+
+@media only screen and (min-width: 5001px) and (max-width: 9999px){
+
+.section-container-detalhes{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+                        
+.div-card-detalhes{
+    width: 550px;
+    margin: 0 auto;
+    background-color: var(--quaternaria);
+    border-radius: 15px;
+    padding-bottom: 1vh;
+}
+                    
+.div-titulo-detalhes{
+    width: 100%;
+    background-color: var(--secundaria);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    color: var(--textoBranco);
+    font-size: 1.5em;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-family: helvetica;
+}
+                    
+.div-container-itens-detalhes{
+    width: 98%;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-family: helvetica;
+}
+                    
+.h6-item-detalhes{
+    font-weight: 700;
+}
+                    
+.div-container-voltar-detalhes{
+    width: 97%;
+    height: 35px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+                    
+.div-botao-voltar-detalhes{
+    width: 75px;
+    height: 100%;
+    border-radius: 5px;
+    background-color:var(--secundaria);
+    font-size: 0.9em;
+    text-align: center;
+    color: var(--textoBranco);
+    font-family: helvetica;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    transition: background-color .2s ease-out;
+}
+                    
+.div-botao-voltar-detalhes:hover{
+    cursor: pointer;
+    background-color: var(--botaoHover);
+}
+                    
+}
+
+
